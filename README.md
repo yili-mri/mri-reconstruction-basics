@@ -67,6 +67,23 @@ Demonstrates:
 - Root-sum-of-squares (RSS) coil combination
 - Spatial intensity variation associated with coil sensitivities
 
+### 6. Basic SENSE Reconstruction
+
+`basic_sense_reconstruction.py`
+
+Demonstrates:
+
+- R = 2 image-domain folding
+- Spatial encoding using multiple receiver coils
+- Coil sensitivity matrices
+- Separation of overlapping spatial locations
+- SENSE unfolding using the Moore-Penrose pseudoinverse
+- Comparison of aliased and reconstructed images
+
+This is a simplified educational implementation using known synthetic
+coil sensitivity maps rather than a clinical SENSE reconstruction pipeline.
+
+
 ## Concepts Covered
 
 The repository currently covers:
@@ -81,6 +98,10 @@ The repository currently covers:
 - Receiver-coil sensitivity
 - Multi-coil MRI reconstruction
 - Root-sum-of-squares coil combination
+- Parallel imaging fundamentals
+- SENSE reconstruction
+- Coil sensitivity encoding
+- Pseudoinverse-based unfolding
 
 ## Requirements
 
